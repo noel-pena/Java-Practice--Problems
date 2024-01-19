@@ -1,5 +1,10 @@
+import java.util.Date;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        //this is how to print out the current time
+        byte age = 29;
+        Date now = new Date();
+        System.out.println(now);
     }
 }
