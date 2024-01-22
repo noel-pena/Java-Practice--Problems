@@ -135,8 +135,8 @@ import java.util.Scanner;
 //     }
 // }
 
-// //Mortgage Project
-// // mortgage pymt calculator as follow: M = P ((r (1 + r) ^n) / (1 + r) ^n - 1))
+//Mortgage Project
+// mortgage pymt calculator as follow: M = P ((r (1 + r) ^n) / (1 + r) ^n - 1))
 // public class App {
 //     public static void main(String[] args) throws Exception {
 //         final byte MONTHS_IN_YEAR = 12;
