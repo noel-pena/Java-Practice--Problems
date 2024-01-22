@@ -1,6 +1,7 @@
 import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 // //write date
@@ -191,3 +192,32 @@ import java.util.Scanner;
 //         System.out.print(mortgageFormatted);
 //     }
 // };
+
+
+// //basic division calculator with error handling
+// public class App {
+//     public static void main(String[] args) throws Exception {
+//         try{
+//             Scanner scanner = new Scanner(System.in);
+
+//             System.out.println("Enter a number to divide: ");
+//             int x = scanner.nextInt();
+
+//             System.out.println("Enter a number to divide by: ");
+//             int y = scanner.nextInt();
+
+//             int z = x/y;
+            
+//             System.out.println("Answer: " + z);
+//         }
+//         catch(InputMismatchException e){
+//             System.out.println("Please enter a number.");
+//         }
+//         catch(ArithmeticException e){
+//             System.out.println("You cannot divide by 0.");
+//         }
+//         catch(Exception e){
+//             System.out.println("Something went wrong.");
+//         }
+//     }
+// }
