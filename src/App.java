@@ -217,7 +217,7 @@ import java.util.Scanner;
 //             System.out.println("You cannot divide by 0.");
 //         }
 //         catch(Exception e){
-//             System.out.println("Something went wrong.");
+//             System.out.println("Something went wrong. Try again.");
 //         }
 //     }
 // }
